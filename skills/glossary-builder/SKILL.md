@@ -55,3 +55,5 @@ If the source contains conflicting definitions, include each meaning with its ow
 If text is empty or invalid, identify the input problem and request a readable excerpt.
 
 <!-- SkillEvaluator onboarding demo: exercise automatic PR feedback. -->
+
+<!-- Synthetic component version-refresh check. -->
