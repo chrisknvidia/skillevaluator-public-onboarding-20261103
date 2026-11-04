@@ -8,7 +8,7 @@ permissions:
   contents: read
   id-token: write
 jobs:
-  skills:
+  catalog:
     uses: chrisknvidia/skillevaluator-component-onboarding-20261103/.github/workflows/skill-checks.yml@v3
     with:
       paths: skills
