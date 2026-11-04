@@ -1,0 +1,56 @@
+{
+  "total": 1,
+  "passed": 0,
+  "failed": 1,
+  "incomplete": 0,
+  "overall_passed": false,
+  "overall_status": "failed",
+  "total_validators": 12,
+  "total_errors": 2,
+  "total_warnings": 3,
+  "severity_counts": {
+    "critical": 0,
+    "high": 2,
+    "medium": 1,
+    "low": 0
+  },
+  "skills": [
+    {
+      "path": "skills/glossary-builder",
+      "report_dir": "skill-001",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 3,
+      "severity_counts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      }
+    }
+  ],
+  "selection": {
+    "mode": "changed",
+    "base": "f771327c6c174fbdfd3bc5a602b32abe8f4c91cb",
+    "base_ref": "f771327c6c174fbdfd3bc5a602b32abe8f4c91cb",
+    "head": "4e371431362802a6dbf541b28126b47d6a6e74d4",
+    "discovered": 1,
+    "selected": [
+      "skills/glossary-builder"
+    ],
+    "deleted": [],
+    "changed_files": 1
+  },
+  "execution": {
+    "run_url": "https://github.com/chrisknvidia/skillevaluator-public-onboarding-20261103/actions/runs/41752317629",
+    "commit": "4e371431362802a6dbf541b28126b47d6a6e74d4",
+    "image": "ghcr.io/nvidia/skillevaluator-tier1@sha256:a3baec51f48145cdf9de05a5ab054d9576f62f1de0f5276b788410f5c17747d4",
+    "report_url": "",
+    "llm_enabled": false,
+    "workflow_sha": "ca0d0485485ac68110d4c4027577c6aed2e8ccf3"
+  }
+}
